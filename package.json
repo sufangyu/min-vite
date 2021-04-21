@@ -1,0 +1,24 @@
+{
+  "name": "min-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "vite-min": "./bin/www.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.11",
+    "es-module-lexer": "^0.4.1",
+    "koa": "^2.13.1",
+    "koa-static": "^5.0.0",
+    "magic-string": "^0.25.7"
+  },
+  "dependencies": {
+    "vue": "^3.0.11"
+  }
+}
